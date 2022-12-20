@@ -1,14 +1,14 @@
 ---
 title: quick start
 ---
-This quickstart guide contains all the information necessary to get you up and running using [mev-inspect-rs](https://github.com/flashbots/mev-inspect-rs). If you have any questions, do not hesitate to ask in our [Discord](https://discord.gg/GezzK33W).
+This quickstart guide contains all the information necessary to get you up and running using [mev-inspect-rs](https://github.com/flashbots/mev-inspect-rs). If you have any questions, do not hesitate to ask on our [Forum](https://collective.flashbots.net/) or our [Discord](https://discord.gg/flashbots).
 
 
 ### requirements:
 * Rust and Cargo, installation instructions [here](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 * OpenEthereum node running in archive mode with tracing enabled:
     *  `openethereum --pruning archive --tracing on`
-    * If you are interested in contributing to mev-inspect but do not have access to an archive node, please reach out to us in our discord.
+    * If you are interested in contributing to mev-inspect but do not have access to an archive node, please reach out to us in our [Discord](https://discord.gg/flashbots).
 * Postgres instance running locally
     * Using docker: `docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 127.0.0.1:5432:5432 -d postgres`
 
